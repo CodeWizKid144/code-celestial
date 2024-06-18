@@ -15,7 +15,6 @@ def print_matrix(matrix):
     for row in matrix:
         print(row)
 
-# Використання функцій для генерації та виведення матриці 5x5
 n = 5  # Розмір матриці
 random_matrix = generate_random_matrix(n)
 print("Randomly Generated Matrix:")
